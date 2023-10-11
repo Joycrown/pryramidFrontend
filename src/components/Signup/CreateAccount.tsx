@@ -83,7 +83,7 @@ const CreateAccount = () => {
               </span>
             </Text>
           </Center>
-          <HStack gap={10} mt={4}>
+          <HStack gap={10} mt={4} pb={{base:"5",md:""}}>
             <HStack bg="#000000" borderRadius={6} p={1} width="210px">
               <Image src={playstore} alt="playstore" boxSize={8} pl={2} />
               <Text fontSize={{ base: "10px", md: "10px" }} color="white">
